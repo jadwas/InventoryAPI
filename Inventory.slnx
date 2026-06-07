@@ -1,0 +1,16 @@
+<Solution>
+  <Folder Name="/docs/">
+    <File Path="Notes.md" />
+    <File Path="README.md" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src/Inventory.Api/Inventory.Api.csproj" />
+    <Project Path="src/Inventory.Application/Inventory.Application.csproj" />
+    <Project Path="src/Inventory.Domain/Inventory.Domain.csproj" />
+    <Project Path="src/Inventory.Infrastructure/Inventory.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/InventorySystem.Tests.Integration/Inventory.Tests.Unit.csproj" Id="6eefa94b-54d9-467c-aa3a-ce3f35d4cedb" />
+    <Project Path="tests/InventorySystem.Tests.Unit/Inventory.Tests.Integration.csproj" Id="64f0b759-b76b-49da-a11c-ded269be8269" />
+  </Folder>
+</Solution>

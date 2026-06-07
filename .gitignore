@@ -27,7 +27,6 @@ bld/
 project.lock.json
 project.fragment.lock.json
 artifacts/
-
 # ASP.NET Scaffolding
 ScaffoldingReadMe.txt
 
@@ -55,3 +54,34 @@ CodeCoverage/
 *.VisualState.xml
 TestResult.xml
 nunit-*.xml
+
+
+# Rider / IntelliJ
+.idea/
+*.sln.iml
+
+# Visual Studio (gdybyś otworzył projekt)
+.vs/
+
+# User-specific files
+*.user
+*.suo
+
+# Logs (Serilog)
+logs/
+*.log
+
+# SQLite database 
+*.db
+*.db-shm
+*.db-wal
+
+# Environment files
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Publish output
+publish/
